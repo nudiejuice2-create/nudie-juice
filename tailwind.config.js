@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['DM Sans', 'sans-serif'],
+        // Menggabungkan DM Sans dan Inter
+        sans: ['DM Sans', 'Inter', 'sans-serif'],
         mono: ['DM Mono', 'monospace'],
       },
       colors: {
@@ -13,11 +14,4 @@ export default {
     },
   },
   plugins: [],
-  theme: {
-  extend: {
-    fontFamily: {
-      sans: ['Inter', 'sans-serif'],
-    },
-  },
-},
 }
