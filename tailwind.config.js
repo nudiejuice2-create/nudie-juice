@@ -13,4 +13,11 @@ export default {
     },
   },
   plugins: [],
+  theme: {
+  extend: {
+    fontFamily: {
+      sans: ['Inter', 'sans-serif'],
+    },
+  },
+},
 }
